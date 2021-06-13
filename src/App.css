@@ -6,8 +6,8 @@
 .Box-container {
   display: grid;
   grid-gap: 0.5em;
-  grid-template-columns: repeat(5, 100px);
-  grid-template-rows: repeat(5, 100px);
+  grid-template-columns: repeat(5, calc(20vw - 1em));
+  grid-template-rows: repeat(5, calc(20vh - 1em));
   grid-auto-flow: column;
 }
 
